@@ -4,7 +4,10 @@
 
 // Typography
 
-p,
+p {
+  text-align: justify;
+  word-break: break-all;
+}
 h1,
 h2,
 h3,
