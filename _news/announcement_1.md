@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Open the personal website
+Open the personal website. I will post the news about the research and others.
