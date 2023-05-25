@@ -24,6 +24,8 @@ I am a Ph.D. student in the Department of Computer Graphics Technology at Purdue
 
 My research interests include extended reality, virtual human, human-computer interaction, procedural content generation, and animation. Mainly, I focus on how people interact with virtual humans regarding perceived intelligence. Also, I am interested in motion retargeting from video to 3D animation. 
 
+If you have any questions about the research, please send the email to choi714@purdue.edu.
+
 <!--Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.-->
 
 <!--Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.-->
