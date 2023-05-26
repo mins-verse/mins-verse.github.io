@@ -24,11 +24,11 @@
 <p class="p1"><span class="s1">{%- endif %}</span></p>
 <p class="p1"><span class="s1">{{ content }}</span></p>
 <p class="p1"><span class="s1">{% if page.news and site.announcements.enabled -%}</span></p>
-<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; -webkit-text-stroke: #000000"><span class="s2"><a href="file:///Users/mc/Documents/GitHub/mins-verse.github.io/_layouts/%7B%7B%20'/news/'%20%7C%20relative_url%20%7D%7D"><b>news</b></a></span></h2>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; color: #0000e9; -webkit-text-stroke: #000000"><span class="s2"><a href="file:///Users/mc/Documents/GitHub/mins-verse.github.io/_layouts/%7B%7B%20'/news/'%20%7C%20relative_url%20%7D%7D"><b>news</b></a></span></h2>
 <p class="p1"><span class="s1">{%- include news.html limit=true %} {%- endif %} {% if page.latest_posts -%}</span></p>
-<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; -webkit-text-stroke: #000000"><span class="s2"><a href="file:///Users/mc/Documents/GitHub/mins-verse.github.io/_layouts/%7B%7B%20'/blog/'%20%7C%20relative_url%20%7D%7D"><b>latest posts</b></a></span></h2>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; color: #0000e9; -webkit-text-stroke: #000000"><span class="s2"><a href="file:///Users/mc/Documents/GitHub/mins-verse.github.io/_layouts/%7B%7B%20'/blog/'%20%7C%20relative_url%20%7D%7D"><b>latest posts</b></a></span></h2>
 <p class="p1"><span class="s1">{%- include latest_posts.html %} {%- endif %} {% if page.selected_papers -%}</span></p>
-<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; -webkit-text-stroke: #000000"><span class="s2"><a href="file:///Users/mc/Documents/GitHub/mins-verse.github.io/_layouts/%7B%7B%20'/publications/'%20%7C%20relative_url%20%7D%7D"><b>Publications</b></a></span></h2>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; color: #0000e9; -webkit-text-stroke: #000000"><span class="s2"><a href="file:///Users/mc/Documents/GitHub/mins-verse.github.io/_layouts/%7B%7B%20'/publications/'%20%7C%20relative_url%20%7D%7D"><b>selected publications</b></a></span></h2>
 <p class="p1"><span class="s1">{%- include selected_papers.html %} {%- endif %} {%- if page.social %}</span></p>
 <p class="p1"><span class="s1">{% include social.html %}</span></p>
 <p class="p1"><span class="s1">{{ site.contact_note }}</span></p>
