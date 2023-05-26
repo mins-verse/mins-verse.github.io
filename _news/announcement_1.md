@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Open the personal website. I will post updates here. Let me check how the gap works. What can I write more and more and more?
+Open the personal website. I will post research updates here. 
