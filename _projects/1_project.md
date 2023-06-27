@@ -1,8 +1,8 @@
 ---
 layout: page
-title: [NSF RETTL Project]
+title: [NSF RETTL]
 description: [Using Artificial Intelligence to Transform Online Video Lectures into Effective and Inclusive Agent-Based Presentations]
-img: assets/img/pro_1.png
+img: assets/img/pro_1_a.png
 importance: 1
 category: work
 ---
@@ -11,15 +11,16 @@ Students in introductory STEM courses frequently encounter video lectures that i
 
 The research team will apply artificial intelligence methods to extract gesture and voice from instructional videos with human instructors and transform them into instruction delivered by a diverse set of emotionally and socially sensitive onscreen animated embodied agents. Experimental research studies will investigate: 1) whether students learn better from an AI-transformed version of a video lecture than the original instructor-made video lecture; and 2) which features of onscreen agents in AI-transformed video lectures produce improved learning outcomes and processes, comparing delivery from an onscreen agent who does or does not match the student's gender, ethnicity, or race. Overall, results from the project will impact access to high-quality inclusive STEM learning experiences.
 
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/pro_1_b.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/pro_1_c.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/pro_1_d.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
