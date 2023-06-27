@@ -27,7 +27,7 @@ The research team will apply artificial intelligence methods to extract gesture 
     On the left, Comparison Between Instructor and Virtual Agent. Middle, Database of Virtual Agent. Right, AI-Transformed Lecture.
 </div>
 <div class="row">
-    <div class="containerframe">
+    <div class="col-sm mt-3 mt-md-0">
 	<iframe class="responsive-iframe" frameborder="" src="https://itch.io/embed-upload/7654651?color=333333" allowfullscreen=""></iframe>
     </div>
 </div>
