@@ -58,10 +58,11 @@ body.sticky-bottom-footer {
 
 .responsive-iframe {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
   bottom: 0;
   right: 0;
-  width: 95%;
-  height: 95%;
+  width: 97.5%;
+  height: 97.5%;
+  transform: translate(-50%, -50%); 
 }
