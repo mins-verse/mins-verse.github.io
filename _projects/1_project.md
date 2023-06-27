@@ -1,7 +1,7 @@
 ---
 layout: page
-title: NSF RETTL Project
-description: Using Artificial Intelligence to Transform Online Video Lectures into Effective and Inclusive Agent-Based Presentations
+title: [NSF RETTL Project]
+description: [Using Artificial Intelligence to Transform Online Video Lectures into Effective and Inclusive Agent-Based Presentations]
 img: assets/img/pro_1.png
 importance: 1
 category: work
