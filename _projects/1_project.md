@@ -33,4 +33,4 @@ The research team will apply artificial intelligence methods to extract gesture 
 </div>
 <div class="caption">
     Demo Application by Unity and WebGL.
-</div>
+</div>	
