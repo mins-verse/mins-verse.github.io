@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Using Artificial Intelligence to Transform Online Video Lectures into Effective and Inclusive Agent-Based Presentations
+description: Apply artificial intelligence methods to extract gesture and voice from instructional videos with human instructors and transform them into instruction delivered by a diverse set of emotionally and socially sensitive onscreen animated embodied agents.
+img: assets/img/pro_1.png
 importance: 1
 category: work
 ---
