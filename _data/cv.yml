@@ -15,25 +15,17 @@
       institution: Purdue University, West Lafayette, Indiana, United States America
       year: 2020 - now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Computer Graphics Technology
     - title: Master's Degree
       institution: Hongik University, Seoul, South Korea
       year: 2017-2019
       description:
-        - Description 1.
-        - Description 2.
-
+        - Computer Science
     - title: Bachelor's Degree
       institution: Hongik University, Seoul, South Korea
       year: 2017-2019
       description:
-        - Description 1.
-        - Description 2.
+        - Computer Science
 
 - title: Experience
   type: time_table
