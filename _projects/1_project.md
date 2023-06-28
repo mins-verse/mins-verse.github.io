@@ -1,7 +1,7 @@
 ---
 layout: page
-title: [NSF RETTL]
-description: [Using Artificial Intelligence to Transform Online Video Lectures into Effective and Inclusive Agent Based Presentations]
+title: [Using Artificial Intelligence to Transform Online Video Lectures into Effective and Inclusive Agent Based Presentations]
+description: [NSF RETTL]
 img: assets/img/pro_1_a.png
 importance: 1
 category: work

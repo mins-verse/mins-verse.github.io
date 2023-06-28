@@ -1,8 +1,7 @@
 ---
 layout: page
-title: Purdue HRD
-description: [Collaborative MR Simulation for Experiential Learning in STEM Education
-]
+title: [Collaborative MR Simulation for Experiential Learning in STEM Education]
+description: [Purdue HRD Lab]
 img: assets/img/pro_2_a.png
 importance: 2
 category: work
