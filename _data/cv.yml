@@ -66,14 +66,26 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Extended Reality
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Virtual Reality
+        - Mixed Reality
+        - Augmented Reality
+    - title: Virtual Human
       items:
-        - Description 1.
-        - Description 2.
+        - Artificial Intelligence
+        - Perceived Intelligence
+    - title: Human-Computer Interaction
+      items:
+        - Collaborative Interaction
+    - title: Procedural Content Genration
+      item:
+        - Simulated Annealing
+        - Markov Chain Monte Carlo
+    - title: Computer Animation
+      item:
+        - Motion Retargeting
+        - Neural Motion Processing
 
 - title: Other Interests
   type: list
