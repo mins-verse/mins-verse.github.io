@@ -79,15 +79,15 @@
       items:
         - Collaborative Interaction
     - title: Procedural Content Genration
-      item:
+      items:
         - Simulated Annealing
         - Markov Chain Monte Carlo
     - title: Computer Animation
-      item:
+      items:
         - Motion Retargeting
         - Neural Motion Processing
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Guitar, Camera, Drawing, Gym, etc.
