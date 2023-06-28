@@ -11,7 +11,7 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD student
+    - title: PhD Student
       institution: Purdue University, West Lafayette, Indiana, United States America
       year: 2020 - now
       description:
@@ -30,35 +30,39 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: Department of Computer Graphics Technology, Purdue University
+      year: 2022 - now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Using Artificial Intelligence to Transform Online Video Lectures into Effective and Inclusive Agent-Based Presentations
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - National Science Foundation, Research on Emerging Technologies for Teaching and Learning (RETTL)
+    
+    - title: Research Assistant
+      institution: Department of Human Resource Development, Purdue University
+      year: 2021 - 2022
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - title: Collaborative Mixed Reality Simulation for Experimental Learning in STEM Education
+    
+    - title: Research Assistant
+      institution: Department of Computer Science, Hongik University
+      year: 2017 - 2018
       description:
+        - title: Study on the Mobile Platform-Based Entertainment VR Technology
+	  contents:
+            - Ministry of Science, ICT and Future Planning (MSIT), Republic of Korea 
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Teaching Assistant
+      institution: Department of Computer Science, Hongik University
+      year: 2017-2018
+      description:
+        - Computer Graphics (OpenGL)
+
+    - title: Military Service
+      institution: 19th Fighter Wing, Republic of Korea Air Force
+      year: 2012 - 2014
+      description:
+        - title: Data Processing Room
 
 - title: Open Source Projects
   type: time_table
