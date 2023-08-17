@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Open the personal website. I will post research updates here. 
+Created a personal website. I will post research updates here. 
