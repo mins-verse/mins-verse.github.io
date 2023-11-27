@@ -20,7 +20,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. student in the Department of Computer Graphics Technology at Purdue University. I work under the advice of Dr. Christos Mousas and I am also a research assistant at the Virtual Reality Lab. I hold Master’s and Bachelor’s degrees in Computer Science from Hongik University, South Korea.
+I am a Ph.D. candidate in the Department of Computer Graphics Technology at Purdue University. I work under the advice of Dr. Christos Mousas and I am also a research assistant at the Virtual Reality Lab. I hold Master’s and Bachelor’s degrees in Computer Science from Hongik University, South Korea.
 
 My research interests include extended reality, virtual humans, human-computer interaction, procedural content generation, and computer animation. In my Ph.D., I focus on how people interact with virtual humans during collaborative tasks and how they perceive their intelligence. Also, I am interested in motion retargeting from video to 3D animation.
 
