@@ -7,8 +7,13 @@ body {
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
 
-  h1, h2, h3, h4, h5, h6 {
-    scroll-margin-top: 33px;
+  h1 {
+    scroll-margin-top: 66px;
+    font-size: 33px;
+  }  
+
+  h2, h3, h4, h5, h6 {
+    scroll-margin-top: 66px;
   }
 }
 
