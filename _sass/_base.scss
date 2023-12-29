@@ -235,8 +235,7 @@ blockquote {
   .navbar-brand.social {
     padding-bottom: 0;
     padding-top: 0;
-    font-size: 1.7rem;
-    height: 50%;
+    font-size: 1.15rem;
 
     a {
       i::before {
@@ -941,7 +940,7 @@ nav[data-toggle="toc"] {
   .nav-link.active {
     color: var(--global-theme-color);
     border-left-color: var(--global-theme-color);
-    font-size: .75rem;
+    font-size: .275rem;
 
     &:hover {
       color: var(--global-hover-color);
