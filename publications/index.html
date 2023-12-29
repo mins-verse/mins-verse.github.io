@@ -212,7 +212,7 @@
         <div class="author">
         
 
-        Israa Azzam, Keith Pate, Farid Breidi, Minsoo Choi, Yeling Jiang, and Christos Mousas</div>
+         I.Azzam, K. Pate, F. Breidi, M. Choi, Y. Jiang, and C. Mousas</div>
 
         <!-- Journal/Book title and date -->
         
@@ -431,7 +431,20 @@
         <div class="author">
         
 
-        L.-F. Yu, H. Huang, R. Alghofaili, C. Li, Y. Zhang, L. Yu, H. Liu, M. Choi, B. Bannan, and C. Mousas</div>
+        L.-F. Yu, H. Huang, R. Alghofaili, C. Li, Y. Zhang, L. Yu, H. Liu, M. Choi, and
+          <span class="more-authors" title="click to view 2 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '2 more authors' ? 'B. Bannan, C. Mousas' : '2 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">2 more authors</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
