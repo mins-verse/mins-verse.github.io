@@ -238,6 +238,7 @@ blockquote {
     font-size: 1.7rem;
 
     a {
+      height: 50%;
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
