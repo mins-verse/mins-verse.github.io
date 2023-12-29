@@ -97,8 +97,12 @@ body {
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
 }
-body h1, body h2, body h3, body h4, body h5, body h6 {
-  scroll-margin-top: 33px;
+body h1 {
+  scroll-margin-top: 66px;
+  font-size: 33px;
+}
+body h2, body h3, body h4, body h5, body h6 {
+  scroll-margin-top: 66px;
 }
 
 body.fixed-top-nav {
