@@ -236,9 +236,9 @@ blockquote {
     padding-bottom: 0;
     padding-top: 0;
     font-size: 1.7rem;
+    height: 50%;
 
     a {
-      height: 50%;
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
