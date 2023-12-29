@@ -340,6 +340,9 @@ blockquote {
   padding-top: 0;
   font-size: 1.7rem;
 }
+.navbar.navbar-light .navbar-brand.social a {
+  height: 50%;
+}
 .navbar.navbar-light .navbar-brand.social a i::before {
   color: var(--global-text-color);
   transition-property: all 0.2s ease-in-out;
