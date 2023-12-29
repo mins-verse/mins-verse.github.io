@@ -339,8 +339,6 @@ blockquote {
   padding-bottom: 0;
   padding-top: 0;
   font-size: 1.7rem;
-}
-.navbar.navbar-light .navbar-brand.social a {
   height: 50%;
 }
 .navbar.navbar-light .navbar-brand.social a i::before {
