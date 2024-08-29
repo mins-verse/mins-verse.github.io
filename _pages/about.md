@@ -24,6 +24,8 @@ I am a Ph.D. candidate in the Department of Computer Graphics Technology at Purd
 
 My research interests include extended reality, virtual humans, human-computer interaction, procedural content generation, and computer animation. In my Ph.D., I focus on how people interact with virtual humans during collaborative tasks and how they perceive their intelligence. Also, I am interested in motion retargeting from video to 3D animation.
 
+<span style="color:red"> I have received the Best Paper Award of ACM Transactions on Interactive Intelligent Systems (2023). </span>
+
 If you have any questions, please send an email to choi714@purdue.edu.
 
 <!--Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.-->
