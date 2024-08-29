@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-I received the Best Paper Award from ACM Transactions on Interactive Intelligent Systems!
+I received the Best Paper Award <i class="fa fa-trophy"></i> from ACM Transactions on Interactive Intelligent Systems!
