@@ -1,7 +1,6 @@
 
 {% for entry in bibliography %}
   <div class="publication-entry">
-    {{ entry | cite }}  <!-- 기본적으로 citation 출력 -->
     {% if entry.awarded %}
       <p>{{ entry.awarded }}</p>  <!-- awarded 필드가 true인 경우 "Test" 출력 -->
     {% endif %}
