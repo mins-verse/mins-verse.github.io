@@ -190,11 +190,11 @@
           {%- if entry.video %}
             <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button">Video</a>
           {%- endif %}
-          {%- if entry.awarded %}
-            {% if entry.awarded contains '://' -%}
-            <a href="{{ entry.awarded }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          {%- if entry.awardnote %}
+            {% if entry.awardnote contains '://' -%}
+            <a href="{{ entry.awardnote }}" class="btn btn-sm z-depth-0" role="button">AWARD</a>
             {%- else -%}
-            <a href="{{ entry.awarded | prepend: '/assets/awarded/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            <a href="{{ entry.awardnote | prepend: '/assets/awarded/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">AWARD</a>
             {%- endif %}
           {%- endif %}
           </div>
