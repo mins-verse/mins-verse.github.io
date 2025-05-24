@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <!--<a href='#'>Affiliations</a>. Knoy Hall of Technology, Room 378  401 Grant St, West Lafayette, IN 47907, USA --> <!-- Contacts. Moto. Etc. -->
 
