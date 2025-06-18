@@ -49,6 +49,9 @@
 :root .logo-light {
   display: inline;
 }
+:root .logo-dark {
+  display: none;
+}
 
 html[data-theme=dark] {
   --global-bg-color: #1C1C1D;
@@ -90,6 +93,9 @@ html[data-theme=dark] .repo-img-light {
 }
 html[data-theme=dark] .repo-img-dark {
   display: block;
+}
+html[data-theme=dark] .logo-light {
+  display: none;
 }
 html[data-theme=dark] .logo-dark {
   display: inline;
