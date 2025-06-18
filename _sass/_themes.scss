@@ -45,6 +45,9 @@
   .repo-img-dark {
     display: none;
   }
+  .logo-light {
+    display: inline;
+  }
 }
 
 html[data-theme='dark'] {
@@ -89,5 +92,8 @@ html[data-theme='dark'] {
   }
   .repo-img-dark {
     display: block;
+  }
+  .logo-dark {
+    display: inline;
   }
 }
