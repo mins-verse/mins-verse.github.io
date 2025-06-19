@@ -10,6 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <!-- <p>--- MSCS</p> -->
+    <!-- <p>minsoo.choi@okstate.edu<\p> -->
     <p>Room --- in MSCS Building</p>
     <p>Oklahoma State University</p>
     <p>401, Stillwater, OK 74075</p>
