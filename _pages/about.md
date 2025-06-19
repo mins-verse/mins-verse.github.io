@@ -11,8 +11,9 @@ profile:
   address: >
     <!-- <p>--- MSCS</p> -->
     <p>Email: choi714@purdue.edu</p>
-    <p>Knoy Hall of Technology, Room 378</p>
-    <p>Oklahoma State University, Stillwater, OK 74078</p>
+    <p>MSCS </p>
+    <p>401, Stillwater, OK 74075
+    <!-- <p>Oklahoma State University, Stillwater, OK 74078</p>-->
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
