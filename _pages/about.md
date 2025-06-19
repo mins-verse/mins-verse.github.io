@@ -11,7 +11,7 @@ profile:
   address: >
     <!-- <p>--- MSCS</p> -->
     <p>Room --- in MSCS Building</p>
-    <p>Oklahoma State University</p> -->
+    <p>Oklahoma State University</p>
     <p>401, Stillwater, OK 74075</p>
     <!-- <p>Oklahoma State University, Stillwater, OK 74078</p>-->
 
