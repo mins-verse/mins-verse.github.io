@@ -9,10 +9,10 @@ profile:
   image: minsoo_pic.jpeg
   image_circular: false # crops the image to make it circular
   address: >
-    <!-- <p>555 your office number</p> -->
-    <!-- <p>Email: choi714@purdue.edu</p> -->
-    <!-- <p>Knoy Hall of Technology, Room 378</p> -->
-    <!-- <p>401 Grant St, West Lafayette, IN 47907</p> -->
+    <!-- <p>--- MSCS</p> -->
+    <p>Email: choi714@purdue.edu</p>
+    <p>Knoy Hall of Technology, Room 378</p>
+    <p>Oklahoma State University, Stillwater, OK 74078</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
