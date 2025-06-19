@@ -10,9 +10,9 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <!-- <p>--- MSCS</p> -->
-    <p style="font-size: 0.85em;">Room --- in MSCS Building</p>
+    <p>Room --- in MSCS Building</p>
     <!-- <p style="font-size: 0.85em;">Oklahoma State University</p> -->
-    <p sytle="font-size: 0.85em;">401, Stillwater, OK 74075</p>
+    <p>401, Stillwater, OK 74075</p>
     <!-- <p>Oklahoma State University, Stillwater, OK 74078</p>-->
 
 news: true  # includes a list of news items
