@@ -10,9 +10,9 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <!-- <p>--- MSCS</p> -->
-    <p style="font-size: 0.8em;">Email: choi714@purdue.edu</p>
-    <p style="font-size: 0.8em;">Department of Computer Science</p>
-    <p style="font-size: 0.8em;">Oklahoma State University</p>
+    <p style="font-size: 0.9em;">Email: choi714@purdue.edu</p>
+    <p style="font-size: 0.9em;">Department of Computer Science</p>
+    <p style="font-size: 0.9em;">Oklahoma State University</p>
     <!-- <p>Oklahoma State University, Stillwater, OK 74078</p>-->
 
 news: true  # includes a list of news items
