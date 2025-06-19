@@ -11,8 +11,8 @@ profile:
   address: >
     <!-- <p>--- MSCS</p> -->
     <p>Email: choi714@purdue.edu</p>
-    <p>MSCS </p>
-    <p>401, Stillwater, OK 74075
+    <p>Department of Computer Science</p>
+    <p>Oklahoma State University</p>
     <!-- <p>Oklahoma State University, Stillwater, OK 74078</p>-->
 
 news: true  # includes a list of news items
