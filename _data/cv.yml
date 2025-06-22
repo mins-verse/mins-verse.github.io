@@ -11,21 +11,18 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD Student
+    - title: Ph.D. in Technology
       institution: Purdue University, West Lafayette, Indiana, United States America
-      year: 2020 - now
+      year: 2020-2025
       description:
-        - Computer Graphics Technology
-    - title: Master's Degree
+    - title: M.S. in Computer Engineering
       institution: Hongik University, Seoul, South Korea
       year: 2017-2019
       description:
-        - Computer Science
-    - title: Bachelor's Degree
+    - title: B.Eng. in Computer Engineering
       institution: Hongik University, Seoul, South Korea
       year: 2017-2019
       description:
-        - Computer Science
 
 - title: Experience
   type: time_table
@@ -45,13 +42,13 @@
           contents:
             - Purdue HRD Virtual Lab
     - title: Research Assistant
-      institution: Department of Computer Science, Hongik University
+      institution: Department of Computer Engineering, Hongik University
       year: 2017 - 2018
       description:
         - title: Study on the Mobile Platform-Based Entertainment VR Technology
           contents: Ministry of Science, ICT and Future Planning (MSIT), Republic of Korea
     - title: Teaching Assistant
-      institution: Department of Computer Science, Hongik University
+      institution: Department of Computer Engineering, Hongik University
       year: 2017-2018
       description:
         - Computer Graphics (OpenGL)
@@ -59,6 +56,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2023
+      items:
+        - Best Paper Award from ACM Transactions on Interactive Intelligent Systems
     - year: 2014
       items: 
         - Commendation for Excellence, Republic of Korea Air Force
@@ -66,28 +66,18 @@
 - title: Academic Interests
   type: nested_list
   contents:
+    #- title: Extended Reality
+    #  items:
+    #    - Virtual Reality
+    #    - Mixed Reality
+    #    - Augmented Reality
     - title: Extended Reality
-      items: 
-        - Virtual Reality
-        - Mixed Reality
-        - Augmented Reality
-    - title: Virtual Human
-      items:
-        - Artificial Intelligence
-        - Perceived Intelligence
+    - title: Intelligent Agents
     - title: Human-Computer Interaction
-      items:
-        - Collaborative Interaction
-    - title: Procedural Content Genration
-      items:
-        - Simulated Annealing
-        - Markov Chain Monte Carlo
-    - title: Computer Animation
-      items:
-        - Motion Retargeting
-        - Neural Motion Processing
+    - tilte: Computer Game Design
+    - title: Character Animation
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Guitar, Camera, Drawing, Gym, etc.
+    - <u>Hobbies:</u> Gym, Guitar, Camera, Drawing, etc.
