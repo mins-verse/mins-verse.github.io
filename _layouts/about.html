@@ -54,6 +54,13 @@ layout: default
         {%- include news.html limit=true %}
         {%- endif %}
         
+        <!-- Services -->
+        {% if page.services -%}
+        <!-- <h2><a href="{{ '/services/' | relative_url }}" style="color: inherit;">Services</a></h2>
+        {%- include services.html limit=true %}-->
+        <a> TEST </a>
+        {%- endif %}
+
         <!-- Latest posts -->
         {% if page.latest_posts -%}
         <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">Latest posts</a></h2>
