@@ -50,31 +50,31 @@ layout: default
 
         <!-- News -->
         {% if page.news and site.announcements.enabled -%}
-        <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;"><b>News</b></a></h2>
+        <h2><a style="color: inherit;"><b>News</b></a></h2>
         {%- include news.html limit=true %}
         {%- endif %}
         
         <!-- Services -->
         {% if page.services -%}
-        <h2><a href="{{ '/services/' | relative_url }}" style="color: inherit;"><b>Services</b></a></h2>
+        <h2><a style="color: inherit;"><b>Services</b></a></h2>
         {%- include services.html limit=true %}
         {%- endif %}
         
         <!-- Teaching -->
         {% if page.teaching -%}
-        <h2><a href="{{ '/teaching/' | relative_url }}" style="color: inherit;"><b>Teaching</b></a></h2>
+        <h2><a style="color: inherit;"><b>Teaching</b></a></h2>
         {%- include teaching.html limit=true %}
         {%- endif %}
 
         <!-- Latest posts -->
         {% if page.latest_posts -%}
-        <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">Latest posts</a></h2>
+        <h2><a style="color: inherit;">Latest posts</a></h2>
         {%- include latest_posts.html %}
         {%- endif %}
 
         <!-- Selected papers -->
         {% if page.selected_papers -%}
-        <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;"><b>Publications</b></a></h2>
+        <h2><a style="color: inherit;"><b>Publications</b></a></h2>
         {%- include selected_papers.html %}
         {%- endif %}
 
