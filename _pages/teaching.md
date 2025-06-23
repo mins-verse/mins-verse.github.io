@@ -1,8 +1,7 @@
 ---
-layout: cv
-permalink: /cv/
-title: CV
+layout: teaching
+title: Teaching
 nav: true
-nav_order: 5
+nav_order: 4
 cv_pdf: MinsooChoi-CurriculumVitae.pdf
 ---
