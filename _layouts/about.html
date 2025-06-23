@@ -50,31 +50,31 @@ layout: default
 
         <!-- News -->
         {% if page.news and site.announcements.enabled -%}
-        <h2><a id="news" style="color: inherit;"><b>News</b></a></h2>
+        <h2 id="news"><a style="color: inherit;"><b>News</b></a></h2>
         {%- include news.html limit=true %}
         {%- endif %}
         
         <!-- Services -->
         {% if page.services -%}
-        <h2><a id="services" style="color: inherit;"><b>Services</b></a></h2>
+        <h2 id="services"><a style="color: inherit;"><b>Services</b></a></h2>
         {%- include services.html limit=true %}
         {%- endif %}
         
         <!-- Teaching -->
         {% if page.teaching -%}
-        <h2><a id="teaching" style="color: inherit;"><b>Teaching</b></a></h2>
+        <h2 id="teaching"><a style="color: inherit;"><b>Teaching</b></a></h2>
         {%- include teaching.html limit=true %}
         {%- endif %}
 
         <!-- Latest posts -->
         {% if page.latest_posts -%}
-        <h2><a id="latest_posts" style="color: inherit;">Latest posts</a></h2>
+        <h2 id="latest_posts"><a style="color: inherit;">Latest posts</a></h2>
         {%- include latest_posts.html %}
         {%- endif %}
 
         <!-- Selected papers -->
         {% if page.selected_papers -%}
-        <h2><a id="selected_papers" style="color: inherit;"><b>Publications</b></a></h2>
+        <h2 id="selected_papers"><a style="color: inherit;"><b>Publications</b></a></h2>
         {%- include selected_papers.html %}
         {%- endif %}
 
