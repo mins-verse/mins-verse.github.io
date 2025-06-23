@@ -617,8 +617,8 @@ footer.sticky-bottom {
 }
 .publications ol.bibliography li .preview {
   width: 100%;
-  min-width: 160px;
-  max-width: 400px;
+  min-width: 120px;
+  max-width: 300px;
 }
 .publications ol.bibliography li .abbr {
   height: 2rem;
