@@ -1,6 +1,6 @@
 ---
 layout: post
-title: IEEE VR (2022, 2023), ACM CHI PLAY (2022), ACM IMX (2023, 2024)
+title: ISMAR (2025), IEEE VR (2023, 2022), ACM CHI PLAY (2022), ACM IMX (2025, 2024, 2023)
 type: Conference Refereeing
 inline: false
 related_posts: false
