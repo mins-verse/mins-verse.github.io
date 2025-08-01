@@ -17,7 +17,8 @@ footer_text: #>
 keywords: Oklaahoma State University, Department of Computer Science, Virtual Reality, Human-Agent Interaction  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: osu-brand-primary-full.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 😊
+#icon: osu-brand-primary-full.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://mins-verse.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
