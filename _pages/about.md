@@ -10,7 +10,7 @@ profile:
   address: >
     <!-- <p>--- MSCS</p> -->
     <!-- <p>minsoo.choi@okstate.edu<\p> -->
-    <p style="text-align: justify;">Room 218 in MSCS Building</p>
+    <p style="text-align: justify;">Location: Room 218 MSCS</p>
     <p style="text-align: justify;">Oklahoma State University</p>
     <p style="text-align: justify;">401, Stillwater, OK 74075</p>
     <!-- <p>Oklahoma State University, Stillwater, OK 74078</p>-->
