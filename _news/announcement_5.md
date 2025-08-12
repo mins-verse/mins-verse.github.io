@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Successfully defended the dissertation titled "Exploring Collaboration with an Intelligent Virtual Agent."
+Successfully have defended the dissertation titled "Exploring Collaboration with an Intelligent Virtual Agent."

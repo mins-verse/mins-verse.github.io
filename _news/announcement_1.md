@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Created a personal website. I will post research updates here. 
+Create a personal website. I will post research updates here. 

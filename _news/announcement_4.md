@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Passed the dissertation proposal.
+I have passed the dissertation proposal.

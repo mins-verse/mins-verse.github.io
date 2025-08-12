@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Passed the preliminary examination.
+I have passed the preliminary examination.
