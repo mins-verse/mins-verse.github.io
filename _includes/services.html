@@ -11,8 +11,8 @@
               {% endif %}
               {% for item in services limit: services_limit %}
                 <tr>
-                  <th scope="row" style="width:30%;">{{ item.type }}</th>
-                  <td style="width:70%;">
+                  <th scope="row" style="width:22.5%;">{{ item.type }}</th>
+                  <td style="width:77.5%;">
                     {% if item.inline -%}
                       {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
                     {%- else -%}
