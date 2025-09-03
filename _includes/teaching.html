@@ -11,7 +11,7 @@
               {% endif %}
               {% for item in teaching limit: teaching_limit %}
                 <tr>
-                  <th scope="row" style="width:15%">{{ item.type }}</th>
+                  <th scope="row" style="width:11.5%">{{ item.type }}</th>
                   <td>
                     {% if item.inline -%}
                       {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
