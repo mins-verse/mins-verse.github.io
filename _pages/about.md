@@ -5,7 +5,7 @@ permalink: /
 subtitle: Assistant Professor at Oklahoma State University
 profile:
   align: right
-  image: minsoo_pic.jpeg
+  image: minsoo-choi-portrait-trim.png
   image_circular: false # crops the image to make it circular
   address: >
     <!-- <p>--- MSCS</p> -->
