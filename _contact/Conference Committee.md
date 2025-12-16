@@ -2,6 +2,6 @@
 layout: post
 title: CASA (2025)
 type: Conference Committee
-inline: false
+inline: true
 related_posts: false
 ---

@@ -178,7 +178,7 @@ collections:
   contact:
     defaults:
       layout: post
-    output: false
+    output: true
     permalink: /contact/:path/
   news:
     defaults:
