@@ -187,8 +187,10 @@
         </div>
         
         <!-- Contact -->
-        <h2 id="contact"><a style="color: inherit;"><b>Contact</b></a></h2>          <div class="news">
-            <div class="table-responsive">
+        <h2 id="contact"><a style="color: inherit;"><b>Contact</b></a></h2>
+<!--
+            <div class="news">
+            <div class="table-responsive" >
               <table class="table table-sm table-borderless">
               
                 <tr>
@@ -212,6 +214,139 @@
               </table>
             </div>
           </div>
+-->
+
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Row</title>
+  <style>
+    :root {
+      --gap: 28px;
+      --text: #111;
+      --muted: #333;
+      --link: #1a73e8;
+      --border: #e6e6e6;
+      --mapRadius: 6px;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+      color: var(--text);
+      background: #fff;
+    }
+
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 18px 20px;
+      border-top: 1px solid var(--border);
+    }
+
+    .contact-row {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr 1.4fr; /* address | hours+links | map */
+      gap: var(--gap);
+      align-items: start;
+    }
+
+    .block p {
+      margin: 0 0 6px 0;
+      line-height: 1.35;
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    .block strong {
+      color: var(--text);
+      font-weight: 700;
+    }
+
+    .links {
+      margin-top: 10px;
+    }
+
+    .link-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 8px 0 0 0;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.35;
+    }
+
+    .link-row a {
+      color: var(--link);
+      text-decoration: none;
+    }
+    .link-row a:hover { text-decoration: underline; }
+
+    /* Map: width 100%, height by aspect ratio */
+    .map {
+      width: 100%;
+      border-radius: var(--mapRadius);
+      overflow: hidden;
+    }
+
+    .map iframe {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 9; /* 스샷 느낌 비율 */
+      height: auto;
+      border: 0;
+    }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .contact-row {
+        grid-template-columns: 1fr;
+      }
+      .map iframe {
+        aspect-ratio: 16 / 10;
+      }
+    }
+  </style>
+
+
+
+  <section class="wrap">
+    <div class="contact-row">
+      <!-- Left: Address -->
+      <div class="block">
+        <p><strong>Office:</strong> MSCS 218</p>
+        <p><strong>3IL:</strong> MSCS 236</p>
+        <p>Oklahoma State University</p>
+        <p>Stillwater, OK 74078</p>
+      </div>
+
+      <!-- Middle: Office hours + contact -->
+      <div class="block">
+        <p><strong>Office Hours:</strong> TBA for Fall 2025</p>
+
+        <div class="links">
+          <div class="link-row">
+            <span aria-hidden="true">✉</span>
+            <a href="mailto:minsoo.choi@okstate.edu">minsoo.choi@okstate.edu</a>
+          </div>
+          <div class="link-row">
+            <span aria-hidden="true">☎</span>
+            <a href="tel:+4057445674">+1 405-744-5674</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Map -->
+      <div class="map" aria-label="Map">
+        <iframe title="Google Map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="YOUR_GOOGLE_MAPS_EMBED_URL" allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+
 
         
         <!-- News -->
