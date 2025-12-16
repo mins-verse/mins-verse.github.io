@@ -15,6 +15,7 @@ profile:
     <p style="text-align: justify; letter-spacing: -0.095em;">Office Hours: T/Th 1:00-3:00 PM</p>
     <!-- <p>Oklahoma State University, Stillwater, OK 74078</p>-->
 
+contact: true
 news: true  # includes a list of news items
 services: true
 teaching: true
