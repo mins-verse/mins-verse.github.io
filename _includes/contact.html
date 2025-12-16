@@ -1,0 +1,29 @@
+          <div class="news">
+            {% if site.contact != blank -%}
+            {%- assign contact_size = site.contact | size -%}
+            <div class="table-responsive" {% if include.limit and site.announcements.scrollable and news_size > 3 %}style="max-height: 60vw"{% endif %}>
+              <table class="table table-sm table-borderless">
+              {%- assign contact = site.contact | reverse -%}
+              {% if include.limit and contact.announcements.limit %}
+              {% assign contact_limit = contact.announcements.limit %}
+              {% else %}
+              {% assign contact_limit = contact_size %}
+              {% endif %}
+              {% for item in contact limit: contact_limit %}
+                <tr>
+                  <th scope="row" style="width:22.5%">{{ item.type }}</th>
+                  <td>
+                    {% if item.inline -%}
+                      {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                    {%- else -%}
+                      <a class="news-title">{{ item.title }}</a>
+                    {%- endif %}
+                  </td>
+                </tr>
+              {%- endfor %}
+              </table>
+            </div>
+          {%- else -%}
+            <p>No services so far...</p>
+          {%- endif %}
+          </div>
