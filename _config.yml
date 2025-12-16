@@ -58,7 +58,11 @@ footer_fixed: true
 
 # Dimensions
 # max_width: 925px
-max_width: 875px
+
+# Previous version: Before 12/15/2025
+# max_width: 875px
+
+max_width: 1025px
 
 # TODO: add layout settings (single page vs. multi-page)
 
