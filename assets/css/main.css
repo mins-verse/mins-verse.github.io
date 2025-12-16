@@ -210,6 +210,10 @@ table.table a:hover:after :not(.nav-item.dropdown) {
   width: 100%;
 }
 
+.table {
+  margin-bottom: 0rem;
+}
+
 .table-dark {
   background-color: transparent;
 }
