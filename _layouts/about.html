@@ -49,21 +49,21 @@ layout: default
             {{ content }}
         </div>
         
-        <hr style="border:none;border-top:1px solid #e6e6e6;margin:24px 0;">
+        <hr style="border:none;border-top:1px;color: inherit;margin:24px 0;">
         
         <!-- Contact -->
         {% if page.contact -%}
         <h2 id="contact"><a style="color: inherit;"><b>Contact</b></a></h2>
         {%- include contact.html limit=true %}
         {%- endif %}
-        <hr style="border:none;border-top:1px solid #e6e6e6;margin:24px 0;">
+        <hr style="border:none;border-top:1px;color: inherit;margin:24px 0;">
         
         <!-- News -->
         {% if page.news and site.announcements.enabled -%}
         <h2 id="news"><a style="color: inherit;"><b>News</b></a></h2>
         {%- include news.html limit=true %}
         {%- endif %}
-        <hr style="border:none;border-top:1px solid #e6e6e6;margin:24px 0;">
+        <hr style="border:none;border-top:1px;color: inherit;margin:24px 0;">
         
         <!-- Services -->
         {% if page.services -%}
@@ -71,7 +71,7 @@ layout: default
         {%- include services.html limit=true %}
         {%- endif %}
         
-        <hr style="border:none;border-top:1px solid #e6e6e6;margin:24px 0;">
+        <hr style="border:none;border-top:1px;color: inherit;margin:24px 0;">
         
         <!-- Teaching -->
         {% if page.teaching -%}
@@ -84,14 +84,14 @@ layout: default
         <h2 id="latest_posts"><a style="color: inherit;">Latest posts</a></h2>
         {%- include latest_posts.html %}
         {%- endif %}
-        <hr style="border:none;border-top:1px solid #e6e6e6;margin:24px 0;">
+        <hr style="border:none;border-top:1px;color: inherit;margin:24px 0;">
 
         <!-- Selected papers -->
         {% if page.selected_papers -%}
         <h2 id="selected_papers"><a style="color: inherit;"><b>Publications</b></a></h2>
         {%- include selected_papers.html %}
         {%- endif %}
-        <hr style="border:none;border-top:1px solid #e6e6e6;margin:24px 0;">
+        <hr style="border:none;border-top:1px;color: inherit;margin:24px 0;">
         
         <!-- Social -->
         {%- if page.social %}
