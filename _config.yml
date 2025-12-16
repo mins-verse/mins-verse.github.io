@@ -175,6 +175,11 @@ external_sources:
 # -----------------------------------------------------------------------------
 
 collections:
+  contact:
+    defaults:
+      layout: post
+    output: true
+    permalink: /contact/:path/
   news:
     defaults:
       layout: post
