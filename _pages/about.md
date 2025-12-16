@@ -10,9 +10,6 @@ profile:
   address: >
     <!-- <p>--- MSCS</p> -->
     <!-- <p>minsoo.choi@okstate.edu<\p> -->
-    <p style="text-align: justify; letter-spacing: -0.075em;">Office Location: Room 218 MSCS</p>
-    <p style="text-align: justify; letter-spacing: 0.0055em;">Office Phone: 405-744-5674</p>
-    <p style="text-align: justify; letter-spacing: -0.095em;">Office Hours: T/Th 1:00-3:00 PM</p>
     <!-- <p>Oklahoma State University, Stillwater, OK 74078</p>-->
 
 contact: true
