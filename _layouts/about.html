@@ -48,7 +48,13 @@ layout: default
         <div class="clearfix">
             {{ content }}
         </div>
-
+        
+        <!-- Services -->
+        {% if page.contact -%}
+        <h2 id="contact"><a style="color: inherit;"><b>Contact</b></a></h2>
+        {%- include contact.html limit=true %}
+        {%- endif %}
+        
         <!-- News -->
         {% if page.news and site.announcements.enabled -%}
         <h2 id="news"><a style="color: inherit;"><b>News</b></a></h2>
