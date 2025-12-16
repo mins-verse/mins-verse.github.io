@@ -70,7 +70,6 @@ layout: default
         <h2 id="services"><a style="color: inherit;"><b>Services</b></a></h2>
         {%- include services.html limit=true %}
         {%- endif %}
-        
         <hr style="border:none;border-top:1px solid currentColor;margin:24px 0;">
 
         <!-- Teaching -->
@@ -78,14 +77,13 @@ layout: default
         <h2 id="teaching"><a style="color: inherit;"><b>Teaching</b></a></h2>
         {%- include teaching.html limit=true %}
         {%- endif %}
-
         <!-- Latest posts -->
         {% if page.latest_posts -%}
         <h2 id="latest_posts"><a style="color: inherit;">Latest posts</a></h2>
         {%- include latest_posts.html %}
         {%- endif %}
         <hr style="border:none;border-top:1px solid currentColor;margin:24px 0;">
-
+        
         <!-- Selected papers -->
         {% if page.selected_papers -%}
         <h2 id="selected_papers"><a style="color: inherit;"><b>Publications</b></a></h2>
