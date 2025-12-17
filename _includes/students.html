@@ -5,55 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Students</title>
   <style>
-    .profiles {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr); /* 한 줄에 3개 */
-      gap: 16px;
-    }
+      .profiles {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+      }
 
-    .card {
-      border: 1px solid #e5e7eb;
-      border-radius: 5px;
-      padding: 5px;
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      background: #fff;
-      
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
+      .person {
+        text-align: center;
+      }
 
-    .avatar {
-      width: 72px;
-      height: 72px;
-      border-radius: 50%;
-      object-fit: cover;
-      flex: 0 0 auto;
-      background: #f3f4f6;
-    }
+      .person img {
+        width: 120px;
+        height: auto;
+      }
 
-    /* 반응형: 화면이 좁아지면 2열 -> 1열 */
-    @media (max-width: 900px) {
-      .profiles { grid-template-columns: repeat(2, 1fr); }
-    }
-    @media (max-width: 560px) {
-      .profiles { grid-template-columns: 1fr; }
-    }
+      .person p {
+        margin: 6px 0 0;
+      }
+      @media (max-width: 500px) {
+        .profiles {
+          grid-template-columns: 1fr;
+        }
+      }
   </style>
 </head>
 
 <body>
   <div class="profiles">
-    <div class="card">
-      <img class="avatar" src="assets/img/non-profile.jpeg"/>
-      <p class="name">Atika Rahman Paddo</p>
+    <div class="person">
+      <img src="assets/img/non-profile.jpeg"/>
+      <p>Atika Rahman Paddo</p>
     </div>
 
-    <div class="card">
-      <img class="avatar" src="assets/img/non-profile.jpeg"/>
-      <p class="name">Anudeep Errabelly</p>
+    <div class="person">
+      <img src="assets/img/non-profile.jpeg"/>
+      <p>Anudeep Errabelly</p>
     </div>
 
     <!-- 카드 더 추가하면 자동으로 3개씩 줄로 배치됨 -->
