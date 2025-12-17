@@ -1,29 +1,76 @@
-          <div class="news">
-            {% if site.news != blank -%}
-            {%- assign news_size = site.news | size -%}
-            <div class="table-responsive" {% if include.limit and site.announcements.scrollable and news_size > 3 %}style="max-height: 60vw"{% endif %}>
-              <table class="table table-sm table-borderless">
-              {%- assign news = site.news | reverse -%}
-              {% if include.limit and site.announcements.limit %}
-              {% assign news_limit = site.announcements.limit %}
-              {% else %}
-              {% assign news_limit = news_size %}
-              {% endif %}
-              {% for item in news limit: news_limit %}
-                <tr>
-                  <th scope="row" style="width:10%">{{ item.date | date: "%b %Y" }}</th>
-                  <td>
-                    {% if item.inline -%}
-                      {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-                    {%- else -%}
-                      <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                    {%- endif %}
-                  </td>
-                </tr>
-              {%- endfor %}
-              </table>
-            </div>
-          {%- else -%}
-            <p>No news so far...</p>
-          {%- endif %}
-          </div>
+<div class="news">
+  {% if site.news != blank -%}
+    {%- assign news = site.news | reverse -%}
+    {%- assign news_size = news | size -%}
+
+    <div class="table-responsive">
+      <!-- 처음 5개 -->
+      <table class="table table-sm table-borderless">
+        {% for item in news limit: 5 %}
+          <tr>
+            <th scope="row" style="width:10%">{{ item.date | date: "%b %Y" }}</th>
+            <td>
+              {% if item.inline -%}
+                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+              {%- else -%}
+                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+              {%- endif %}
+            </td>
+          </tr>
+        {%- endfor %}
+      </table>
+
+      <!-- 나머지: More 눌러야 보임 -->
+      {% if news_size > 5 %}
+        <details id="news-more">
+          <summary id="news-more-summary" data-more="More" data-less="Less">More</summary>
+
+          <table class="table table-sm table-borderless" style="margin-top: 8px;">
+            {% for item in news offset: 5 %}
+              <tr>
+                <th scope="row" style="width:10%">{{ item.date | date: "%b %Y" }}</th>
+                <td>
+                  {% if item.inline -%}
+                    {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                  {%- else -%}
+                    <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                  {%- endif %}
+                </td>
+              </tr>
+            {%- endfor %}
+          </table>
+
+          <!-- 마지막 밑으로 스크롤할 앵커 -->
+          <div id="news-more-end"></div>
+        </details>
+      {% endif %}
+    </div>
+
+  {%- else -%}
+    <p>No news so far...</p>
+  {%- endif %}
+</div>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const details = document.getElementById("news-more");
+  const summary = document.getElementById("news-more-summary");
+  const end = document.getElementById("news-more-end");
+  if (!details || !summary || !end) return;
+
+  const moreText = summary.dataset.more || "More";
+  const lessText = summary.dataset.less || "Less";
+
+  details.addEventListener("toggle", () => {
+    if (details.open) {
+      summary.textContent = lessText;
+      requestAnimationFrame(() => {
+        end.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    } else {
+      summary.textContent = moreText;
+    }
+  });
+});
+</script>
