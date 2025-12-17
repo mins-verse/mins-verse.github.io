@@ -319,10 +319,10 @@ blockquote {
   border: 1px solid var(--global-divider-color);
 }
 .navbar .dropdown-menu a:not(.active) {
-  color: var(--global-text-color);
+  color: #ffffff;
 }
 .navbar .dropdown-menu a:hover {
-  color: var(--global-hover-color);
+  color: #ffffff;
 }
 .navbar .dropdown-menu .dropdown-divider {
   border-top: 1px solid var(--global-divider-color) !important;
