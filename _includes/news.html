@@ -7,7 +7,7 @@
 
                 <table class="table table-sm table-borderless">
                   <!-- 최근 6개 -->
-                  {% for item in news limit: 6 %}
+                  {% for item in news limit: 3 %}
                     <tr>
                       <th scope="row" style="width:10%">{{ item.date | date: "%b %Y" }}</th>
                       <td>
