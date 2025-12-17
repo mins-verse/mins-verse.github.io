@@ -301,48 +301,102 @@
         <div style="width:100%;height:1px;background:currentColor;margin:24px auto;"></div>
 
         <!-- News -->
-        <h2 id="news"><a style="color: inherit;"><b>News</b></a></h2>          <div class="news">
-            <div class="table-responsive" style="max-height: 60vw">
-              <table class="table table-sm table-borderless">
-              
-                <tr>
-                  <th scope="row" style="width:10%">Aug 2025</th>
-                  <td>
-                    One paper (TVCG) has been accepted to IEEE ISMAR 2025!
+        <h2 id="news"><a style="color: inherit;"><b>News</b></a></h2>
+<div class="news">
+  <div class="table-responsive">
+      <!-- 처음 5개 -->
+      <table class="table table-sm table-borderless">
+        
+          <tr>
+            <th scope="row" style="width:10%">Aug 2025</th>
+            <td>
+              One paper (TVCG) has been accepted to IEEE ISMAR 2025!
 
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row" style="width:10%">Aug 2025</th>
-                  <td>
-                    I am glad to share that I have started a new position as an Assistant Professor in the Department of Computer Science at Oklahoma State University.
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" style="width:10%">Aug 2025</th>
+            <td>
+              I am glad to share that I have started a new position as an Assistant Professor in the Department of Computer Science at Oklahoma State University.
 
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row" style="width:10%">Apr 2025</th>
-                  <td>
-                    I have successfully defended my Ph.D. dissertation, <strong>Exploring Collaboration with an Intelligent Virtual Agent</strong>.
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" style="width:10%">Apr 2025</th>
+            <td>
+              I have successfully defended my Ph.D. dissertation, <strong>Exploring Collaboration with an Intelligent Virtual Agent</strong>.
 
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row" style="width:10%">Dec 2024</th>
-                  <td>
-                    I have passed the dissertation proposal.
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" style="width:10%">Dec 2024</th>
+            <td>
+              I have passed the dissertation proposal.
 
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row" style="width:10%">Aug 2024</th>
-                  <td>
-                    I received the Best Paper Award <i class="fa fa-trophy"></i> from ACM Transactions on Interactive Intelligent Systems!
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" style="width:10%">Aug 2024</th>
+            <td>
+              I received the Best Paper Award <i class="fa fa-trophy"></i> from ACM Transactions on Interactive Intelligent Systems!
 
-                  </td>
-                </tr>
-              </table>
-            </div>
-          </div>
+            </td>
+          </tr>
+      </table>
+
+      <!-- 나머지: More 눌러야 보임 -->
+      
+        <details id="news-more">
+          <summary id="news-more-summary" data-more="More" data-less="Less">More</summary>
+
+          <table class="table table-sm table-borderless" style="margin-top: 8px;">
+            
+              <tr>
+                <th scope="row" style="width:10%">Nov 2023</th>
+                <td>
+                  I have passed the preliminary examination.
+
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" style="width:10%">May 2023</th>
+                <td>
+                  Create a personal website. I will post research updates here.
+
+                </td>
+              </tr>
+          </table>
+
+          <!-- 마지막 밑으로 스크롤할 앵커 -->
+          <div id="news-more-end"></div>
+        </details>
+      
+    </div>
+</div>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const details = document.getElementById("news-more");
+  const summary = document.getElementById("news-more-summary");
+  const end = document.getElementById("news-more-end");
+  if (!details || !summary || !end) return;
+
+  const moreText = summary.dataset.more || "More";
+  const lessText = summary.dataset.less || "Less";
+
+  details.addEventListener("toggle", () => {
+    if (details.open) {
+      summary.textContent = lessText;
+      requestAnimationFrame(() => {
+        end.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    } else {
+      summary.textContent = moreText;
+    }
+  });
+});
+</script>
 
         <div style="width:100%;height:1px;background:currentColor;margin:24px auto;"></div>
 
