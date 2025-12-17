@@ -304,8 +304,8 @@
         <h2 id="news"><a style="color: inherit;"><b>News</b></a></h2>
 <div class="news">
   <div class="table-responsive">
-      <!-- 처음 5개 -->
       <table class="table table-sm table-borderless">
+        <!-- 처음 5개 -->
         
           <tr>
             <th scope="row" style="width:10%">Aug 2025</th>
@@ -344,11 +344,9 @@
           </tr>
       </table>
 
-      <!-- 나머지: More 눌러야 보임 -->
       
-        <details id="news-more">
-          <summary id="news-more-summary" data-more="More" data-less="Less">More</summary>
-
+        <!-- 나머지 (처음엔 숨김) -->
+        <div id="news-more-panel" style="display:none;">
           <table class="table table-sm table-borderless" style="margin-top: 8px;">
             
               <tr>
@@ -366,10 +364,10 @@
                 </td>
               </tr>
           </table>
+        </div>
 
-          <!-- 마지막 밑으로 스크롤할 앵커 -->
-          <div id="news-more-end"></div>
-        </details>
+        <!-- 버튼은 “항상 맨 아래”에 위치 -->
+        <button id="news-more-btn" type="button">More</button>
       
     </div>
 </div>
@@ -377,22 +375,22 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  const details = document.getElementById("news-more");
-  const summary = document.getElementById("news-more-summary");
-  const end = document.getElementById("news-more-end");
-  if (!details || !summary || !end) return;
+  const panel = document.getElementById("news-more-panel");
+  const btn = document.getElementById("news-more-btn");
+  if (!panel || !btn) return;
 
-  const moreText = summary.dataset.more || "More";
-  const lessText = summary.dataset.less || "Less";
+  let open = false;
 
-  details.addEventListener("toggle", () => {
-    if (details.open) {
-      summary.textContent = lessText;
+  btn.addEventListener("click", () => {
+    open = !open;
+    panel.style.display = open ? "block" : "none";
+    btn.textContent = open ? "Less" : "More";
+
+    if (open) {
+      // 펼친 뒤 버튼(=맨 아래)에 시선이 오도록 스크롤
       requestAnimationFrame(() => {
-        end.scrollIntoView({ behavior: "smooth", block: "start" });
+        btn.scrollIntoView({ behavior: "smooth", block: "end" });
       });
-    } else {
-      summary.textContent = moreText;
     }
   });
 });
