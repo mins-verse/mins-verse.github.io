@@ -23,7 +23,7 @@
       {% if news_size > 5 %}
         <!-- 나머지 (처음엔 숨김) -->
         <div id="news-more-panel" style="display:none;">
-          <table class="table table-sm table-borderless" style="margin-top: 8px;">
+          <table class="table table-sm table-borderless" style="margin-top: 0px;">
             {% for item in news offset: 5 %}
               <tr>
                 <th scope="row" style="width:10%">{{ item.date | date: "%b %Y" }}</th>
