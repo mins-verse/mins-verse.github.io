@@ -310,10 +310,12 @@ blockquote {
   padding: 0;
   border: 0;
   background-color: inherit;
-  color: var(--global-text-color);
+  // color: var(--global-text-color);
+  color: #ffffff;
 
   &:hover {
-    color: var(--global-hover-color);
+    // color: var(--global-hover-color);
+    color: #ffffff;
   }
 }
 
