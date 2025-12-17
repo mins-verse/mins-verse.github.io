@@ -40,7 +40,7 @@
         </div>
 
         <!-- 버튼은 “항상 맨 아래”에 위치 -->
-        <span id="news-more-btn" style="cursor: pointer;">More</span>
+        <span id="news-more-btn" style="cursor: pointer;">  More</span>
       {% endif %}
     </div>
 
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
   btn.addEventListener("click", () => {
     open = !open;
     panel.style.display = open ? "block" : "none";
-    btn.textContent = open ? "Less" : "More";
+    btn.textContent = open ? "  Less" : "  More";
 
     if (open) {
       // 펼친 뒤 버튼(=맨 아래)에 시선이 오도록 스크롤
