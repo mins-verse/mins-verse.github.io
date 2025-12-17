@@ -23,10 +23,10 @@
 
                 {% if news_size > 3 %}
                   <details class="news-more">
-                    <summary>More news</summary>
+                    <summary>More</summary>
 
                     <table class="table table-sm table-borderless" style="margin-top: 8px;">
-                      {% for item in news offset: 6 %}
+                      {% for item in news offset: 3 %}
                         <tr>
                           <th scope="row" style="width:10%">{{ item.date | date: "%b %Y" }}</th>
                           <td>
