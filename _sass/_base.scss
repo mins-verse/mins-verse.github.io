@@ -187,11 +187,13 @@ blockquote {
   border: 1px solid var(--global-divider-color);
 
   a:not(.active) {
-    color: var(--global-text-color);
+    // color: var(--global-text-color);
+    color: #ffffff;
   }
 
   a:hover {
-    color: var(--global-hover-color);
+    // color: var(--global-hover-color);
+    color: #ffffff;
   }
 
   .dropdown-divider {
