@@ -21,9 +21,9 @@
                   {% endfor %}
                 </table>
 
-                {% if news_size > 6 %}
+                {% if news_size > 3 %}
                   <details class="news-more">
-                    <summary>더보기</summary>
+                    <summary>More news</summary>
 
                     <table class="table table-sm table-borderless" style="margin-top: 8px;">
                       {% for item in news offset: 6 %}
