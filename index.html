@@ -466,19 +466,22 @@ document.addEventListener("DOMContentLoaded", () => {
 </div>
 
 <script>
-document.addEventListener("DOMContentLoaded", () => {
-  const panel = document.getElementById("news-more-panel");
-  const btn = document.getElementById("news-more-btn");
-  if (!panel || !btn) return;
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("teaching-more-btn");
+    const panel = document.getElementById("teaching-more-panel");
 
-  let open = false;
-
-  btn.addEventListener("click", () => {
-    open = !open;
-    panel.style.display = open ? "block" : "none";
-    btn.textContent = open ? "Less" : "More";
+    if (btn && panel) {
+      btn.addEventListener("click", function () {
+        if (panel.style.display === "none") {
+          panel.style.display = "block";
+          btn.textContent = "Less";
+        } else {
+          panel.style.display = "none";
+          btn.textContent = "More";
+        }
+      });
+    }
   });
-});
 </script>
 
         <!-- Latest posts -->
