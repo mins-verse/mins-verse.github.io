@@ -460,7 +460,7 @@ document.addEventListener("DOMContentLoaded", () => {
           </table>
         </div>
 
-        <span id="teaching-more-btn" class="news-more-btn" style="cursor: pointer; padding-left: .3rem;">Expand ▼</span>
+        <span id="teaching-more-btn" class="news-more-btn" style="display: block; text-align: right; margin-top: 10px; cursor: pointer; padding-left: .3rem; ">Expand</span>
       
     </div>
 </div>
@@ -474,10 +474,10 @@ document.addEventListener("DOMContentLoaded", () => {
       btn.addEventListener("click", function () {
         if (panel.style.display === "none") {
           panel.style.display = "block";
-          btn.textContent = "Collapse ▲";
+          btn.textContent = "Collapse";
         } else {
           panel.style.display = "none";
-          btn.textContent = "Expand ▼";
+          btn.textContent = "Expand";
         }
       });
     }
