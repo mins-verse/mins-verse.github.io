@@ -1,29 +1,63 @@
-          <div class="news">
-            {% if site.teaching != blank -%}
-            {%- assign teaching_size = site.teaching | size -%}
-            <div class="table-responsive" {% if include.limit and site.announcements.scrollable and news_size > 3 %}style="max-height: 60vw"{% endif %}>
-              <table class="table table-sm table-borderless">
-              {%- assign teaching = site.teaching | sort: "order" | reverse -%}
-              {% if include.limit and teaching.announcements.limit %}
-              {% assign teaching_limit = teaching.announcements.limit %}
-              {% else %}
-              {% assign teaching_limit = teaching_size %}
-              {% endif %}
-              {% for item in teaching limit: teaching_limit %}
-                <tr>
-                  <th scope="row" style="width:11.5%">{{ item.type }}</th>
-                  <td>
-                    {% if item.inline -%}
-                      {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-                    {%- else -%}
-                      <a class="news-title">{{ item.title }}</a>
-                    {%- endif %}
-                  </td>
-                </tr>
-              {%- endfor %}
-              </table>
-            </div>
-          {%- else -%}
-            <p>No teaching so far...</p>
-          {%- endif %}
-          </div>
+<div class="news">
+  {% if site.teaching != blank -%}
+    {%- assign teaching_size = site.teaching | size -%}
+    {%- assign teaching = site.teaching | reverse -%}
+
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+        {% for item in teaching limit: 5 %}
+          <tr>
+            <th scope="row" style="width:11.5%">{{ item.type }}</th>
+            <td>
+              {% if item.inline -%}
+                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+              {%- else -%}
+                <a class="news-title">{{ item.title }}</a>
+              {%- endif %}
+            </td>
+          </tr>
+        {%- endfor %}
+      </table>
+
+      {% if teaching_size > 3 %}
+        <div id="teaching-more-panel" style="display:none;">
+          <table class="table table-sm table-borderless" style="margin-top: 0px;">
+            {% for item in teaching offset: 3 %}
+              <tr>
+                <th scope="row" style="width:11.5%">{{ item.type }}</th>
+                <td>
+                  {% if item.inline -%}
+                    {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                  {%- else -%}
+                    <a class="news-title">{{ item.title }}</a>
+                  {%- endif %}
+                </td>
+              </tr>
+            {%- endfor %}
+          </table>
+        </div>
+
+        <span id="teaching-more-btn" class="news-more-btn" style="cursor: pointer; padding-left: .3rem;">More</span>
+      {% endif %}
+    </div>
+
+  {%- else -%}
+    <p>No teaching so far...</p>
+  {%- endif %}
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const panel = document.getElementById("news-more-panel");
+  const btn = document.getElementById("news-more-btn");
+  if (!panel || !btn) return;
+
+  let open = false;
+
+  btn.addEventListener("click", () => {
+    open = !open;
+    panel.style.display = open ? "block" : "none";
+    btn.textContent = open ? "Less" : "More";
+  });
+});
+</script>
