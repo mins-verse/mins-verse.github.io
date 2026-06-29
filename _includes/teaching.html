@@ -37,7 +37,7 @@
           </table>
         </div>
 
-        <span id="teaching-more-btn" class="news-more-btn" style="cursor: pointer; padding-left: .3rem;">...</span>
+        <span id="teaching-more-btn" class="news-more-btn" style="cursor: pointer; padding-left: .3rem;">Expand ▼</span>
       {% endif %}
     </div>
 
@@ -55,10 +55,10 @@
       btn.addEventListener("click", function () {
         if (panel.style.display === "none") {
           panel.style.display = "block";
-          btn.textContent = "Less";
+          btn.textContent = "Collapse ▲";
         } else {
           panel.style.display = "none";
-          btn.textContent = "More";
+          btn.textContent = "Expand ▼";
         }
       });
     }
