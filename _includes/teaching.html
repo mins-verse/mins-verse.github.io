@@ -1,11 +1,10 @@
 <div class="news">
   {% if site.teaching != blank -%}
     {%- assign teaching_size = site.teaching | size -%}
-    {%- assign teaching = site.teaching | reverse -%}
+    {%- assign teaching = site.teaching | sort: "order" -%}
 
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
-        {% assign sorted_teaching = teaching | sort: "order" %}
         {% for item in teaching limit: 3 %}
           <tr>
             <th scope="row" style="width:11.5%">{{ item.type }}</th>
@@ -23,7 +22,6 @@
       {% if teaching_size > 3 %}
         <div id="teaching-more-panel" style="display:none;">
           <table class="table table-sm table-borderless" style="margin-top: 0px;">
-            {% assign sorted_teaching = teaching | sort: "order" %}
             {% for item in teaching offset: 3 %}
               <tr>
                 <th scope="row" style="width:11.5%">{{ item.type }}</th>
