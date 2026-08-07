@@ -1,7 +1,7 @@
 <div class="news">
   {% if site.teaching != blank -%}
     {%- assign teaching_size = site.teaching | size -%}
-    {%- assign teaching = site.teaching | sort: "order" -%}
+    {%- assign teaching = site.teaching | sort: "order" | reverse -%}
 
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
